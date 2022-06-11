@@ -2,9 +2,10 @@ import React from "react";
 import { TiArrowSortedUp } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import { useSearchParams } from "react-router-dom";
+import Footer from "./Footer";
 import newsData from "./NewsData";
 
-const MAX_POST_COUNT = 3;
+const MAX_POST_COUNT = 10;
 
 export default function NewsContainer() {
 	let [searchParams] = useSearchParams();
@@ -69,6 +70,7 @@ export default function NewsContainer() {
 						</Link>
 					)}
 				</div>
+				<Footer />
 			</div>
 		</>
 	);
