@@ -15,6 +15,14 @@ export default function Footer() {
 						<li className="px-[2px]">Apply to YC |</li>
 						<li className="px-[2px]">Contact</li>
 					</div>
+					<div className="flex flex-row justify-center items-center">
+						<span>Search:</span>
+						<input
+							className="border-2 border-black"
+							type="text"
+							placeholder="Search.."
+						></input>
+					</div>
 				</div>
 			</div>
 		</>
