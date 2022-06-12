@@ -2,7 +2,7 @@ import React from "react";
 export default function Navbar() {
 	return (
 		<>
-			<div className="w-full bg-white md:py-[0.5rem] p-0">
+			<div className="w-full bg-white">
 				<div className="lg:w-8xl m-auto bg-[rgb(255,102,0)] w-full">
 					<div className="flex flex-row items-center">
 						<div className="md:w-[25px]  md:h-[25px] w-[25px] h-[25px] ml-[2px] md:ml-0 flex flex-col ">
