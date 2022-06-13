@@ -33,7 +33,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title: "You need to know what right-half-plane zeros are 5",
+		title: "You need to know what right-half-plane zeros are",
 		website: "(jbconsulting.substack.com)",
 		points: "138",
 		name: "jbay808",
@@ -42,7 +42,7 @@ const newsData = [
 	},
 	{
 		title:
-			"uBlacklist – Block specific sites from appearing in Google search results 6",
+			"uBlacklist – Block specific sites from appearing in Google search results",
 		website: "(github.com/iorate)",
 		points: "26",
 		name: "sanketpatrikar",
@@ -50,7 +50,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title: "You need to know what right-half-plane zeros are 7",
+		title: "You need to know what right-half-plane zeros are",
 		website: "jbconsulting.substack.com",
 		points: "138",
 		name: "jbay808",
@@ -58,7 +58,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title: "You need to know what right-half-plane zeros are 8",
+		title: "You need to know what right-half-plane zeros are",
 		website: "jbconsulting.substack.com",
 		points: "138",
 		name: "jbay808",
@@ -66,7 +66,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title: "You need to know what right-half-plane zeros are 9",
+		title: "You need to know what right-half-plane zeros are",
 		website: "(jbconsulting.substack.com)",
 		points: "138",
 		name: "jbay808",

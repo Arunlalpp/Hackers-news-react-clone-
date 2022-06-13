@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
 	return (
 		<>
@@ -57,7 +59,9 @@ export default function Navbar() {
 							</div>
 						</div>
 						<div className="md:text-[14px] text-[12px] md:mr-1 mr-3 mt-1">
-							<span>login</span>
+							<a href="/">
+								<Link to="/LoginForm">login</Link>
+							</a>
 						</div>
 					</div>
 				</div>
