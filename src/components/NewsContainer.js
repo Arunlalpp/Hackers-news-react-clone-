@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { TiArrowSortedUp } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import { useSearchParams } from "react-router-dom";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import newsData from "./NewsData";
 
-const MAX_POST_COUNT = 8;
+const MAX_POST_COUNT = 20;
 
 export default function NewsContainer() {
 	let [searchParams] = useSearchParams();
@@ -25,13 +24,16 @@ export default function NewsContainer() {
 		const [voteStatus, setVoteStatus] = useState(false);
 		return (
 			<div className="flex flex-row">
-				<div className="flex flex-row ">
-					<span className="text-[#828282]">
+				<div className="flex flex-row items-baseline ">
+					<span className="text-[#828282] m-1">
 						{MAX_POST_COUNT * (pageNumber - 1) + (index + 1)}
+						<span>.</span>
 					</span>
 					{!voteStatus && (
-						<TiArrowSortedUp
-							className="fill-gray-300 w-[25px] h-[28px] cursor-pointer"
+						<img
+							src="https://news.ycombinator.com/grayarrow2x.gif"
+							alt=""
+							className="text-[#828282] w-[10px] h-[10px] cursor-pointer"
 							onClick={() => {
 								setVoteStatus(true);
 							}}
@@ -39,7 +41,7 @@ export default function NewsContainer() {
 					)}
 					{voteStatus && <div className="fill-gray-300 w-[25px] h-[28px]" />}
 				</div>
-				<div className="flex flex-col">
+				<div className="flex flex-col m-1">
 					<div>
 						<a className="text-[14px] font-sans" href="/">
 							{newsItem.title}
@@ -90,8 +92,8 @@ export default function NewsContainer() {
 		<>
 			<Navbar />
 			<div className="w-full">
-				<div className="w-[98%] lg:w-[85%] 2xlw-[99%] m-auto  bg-[#f6f6ef]">
-					<div className="mt-1">
+				<div className="w-[100%] lg:w-[85%] 2xlw-[100%] m-auto  bg-[#f6f6ef]">
+					<div className="">
 						<NewsDataComponent newsDataForPage={newsDataForPage} />
 					</div>
 					{newsData.length > MAX_POST_COUNT * pageNumber && (
