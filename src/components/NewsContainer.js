@@ -24,7 +24,7 @@ export default function NewsContainer() {
 		const [voteStatus, setVoteStatus] = useState(false);
 		return (
 			<div className="flex flex-row">
-				<div className="flex flex-row items-baseline ">
+				<div className="flex flex-row items-baseline w-[10%]">
 					<span className="text-[#828282] m-1">
 						{MAX_POST_COUNT * (pageNumber - 1) + (index + 1)}
 						<span>.</span>
@@ -39,7 +39,7 @@ export default function NewsContainer() {
 							}}
 						/>
 					)}
-					{voteStatus && <div className="fill-gray-300 w-[25px] h-[28px]" />}
+					{voteStatus && <div className="" />}
 				</div>
 				<div className="flex flex-col m-1">
 					<div>
