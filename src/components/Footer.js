@@ -4,8 +4,8 @@ export default function Footer() {
 	return (
 		<>
 			<div className="w-full">
-				<div className="w-[98%] 2xl:w-[85%] 2xlw-[99%] sm:w-[99%] m-auto bg-[#f6f6ef]">
-					<div className="flex flex-row justify-center border-t-4 border-[#ff6600] list-none p-4 text-[10px] whitespace-nowrap">
+				<div className="w-[98%] lg:w-[85%] 2xlw-[99%] m-auto  bg-[#f6f6ef]">
+					<div className="flex flex-row justify-center border-t-[1px] border-[#ff6600] list-none p-4 text-[10px] whitespace-nowrap">
 						<li className="text-[#828282] text-[10px]">Guidelines |</li>
 						<li className="px-[2px]">FAQ |</li>
 						<li className="px-[2px]">Lists |</li>

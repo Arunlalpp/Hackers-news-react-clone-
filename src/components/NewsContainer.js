@@ -99,7 +99,7 @@ export default function NewsContainer() {
 							to={`/news?p=${pageNumber + 1}`}
 							className=" inline-block mt-6 rounded-full px-6 py-2.5  text-[#828282] font-medium text-xs leading-tight ml-2"
 						>
-							Show More
+							More
 						</Link>
 					)}
 				</div>
