@@ -9,7 +9,7 @@ export default function Navbar() {
 					<div className="flex flex-row items-center">
 						<div className="md:w-[25px]  md:h-[25px] w-[25px] h-[25px] ml-[2px] md:ml-0 flex flex-col ">
 							<img
-								className="border-2 ml-[3px] mt-1"
+								className="border-2 ml-0 md:ml-[3px] mt-1"
 								src="https://news.ycombinator.com/y18.gif"
 								alt="Hackers-Logo"
 							/>
