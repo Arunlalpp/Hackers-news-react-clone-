@@ -1,38 +1,5 @@
 const newsData = [
 	{
-		title: "You need to know what right-half-plane zeros are 1",
-		website: "(jbconsulting.substack.com)",
-		points: "138",
-		name: "jbay808",
-		time: "4 hours ago",
-		comment: "45",
-	},
-	{
-		title:
-			"uBlacklist – Block specific sites from appearing in Google search results 2",
-		website: "(github.com/iorate)",
-		points: "26",
-		name: "sanketpatrikar",
-		time: "24 minutes ago",
-		comment: "45",
-	},
-	{
-		title: "You need to know what right-half-plane zeros are 3",
-		website: "jbconsulting.substack.com",
-		points: "138",
-		name: "jbay808",
-		time: "4 hours ago",
-		comment: "45",
-	},
-	{
-		title: "You need to know what right-half-plane zeros are 4",
-		website: "jbconsulting.substack.com",
-		points: "138",
-		name: "jbay808",
-		time: "4 hours ago",
-		comment: "45",
-	},
-	{
 		title: "You need to know what right-half-plane zeros are",
 		website: "(jbconsulting.substack.com)",
 		points: "138",
@@ -41,8 +8,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title:
-			"uBlacklist – Block specific sites from appearing in Google search results",
+		title: "Our plans for Thunderbird on Android",
 		website: "(github.com/iorate)",
 		points: "26",
 		name: "sanketpatrikar",
@@ -58,7 +24,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title: "You need to know what right-half-plane zeros are",
+		title: "You need to know what right-half-plane zeros are ",
 		website: "jbconsulting.substack.com",
 		points: "138",
 		name: "jbay808",
@@ -74,8 +40,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title:
-			"uBlacklist – Block specific sites from appearing in Google search results",
+		title: "Our plans for Thunderbird on Android",
 		website: "(github.com/iorate)",
 		points: "26",
 		name: "sanketpatrikar",
@@ -107,8 +72,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title:
-			"uBlacklist – Block specific sites from appearing in Google search results",
+		title: "Motors Big and Small (1971) [video]",
 		website: "(github.com/iorate)",
 		points: "26",
 		name: "sanketpatrikar",
@@ -132,7 +96,39 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title: "You need to know what right-half-plane zeros are 4",
+		title: "You need to know what right-half-plane zeros are",
+		website: "(jbconsulting.substack.com)",
+		points: "138",
+		name: "jbay808",
+		time: "4 hours ago",
+		comment: "45",
+	},
+	{
+		title: "Motors Big and Small (1971) [video]",
+		website: "(github.com/iorate)",
+		points: "26",
+		name: "sanketpatrikar",
+		time: "24 minutes ago",
+		comment: "45",
+	},
+	{
+		title: "You need to know what right-half-plane zeros are",
+		website: "jbconsulting.substack.com",
+		points: "138",
+		name: "jbay808",
+		time: "4 hours ago",
+		comment: "45",
+	},
+	{
+		title: "You need to know what right-half-plane zeros are",
+		website: "jbconsulting.substack.com",
+		points: "138",
+		name: "jbay808",
+		time: "4 hours ago",
+		comment: "45",
+	},
+	{
+		title: "You need to know what right-half-plane zeros are ",
 		website: "jbconsulting.substack.com",
 		points: "138",
 		name: "jbay808",
@@ -148,8 +144,7 @@ const newsData = [
 		comment: "45",
 	},
 	{
-		title:
-			"uBlacklist – Block specific sites from appearing in Google search results",
+		title: "Motors Big and Small (1971) [video]",
 		website: "(github.com/iorate)",
 		points: "26",
 		name: "sanketpatrikar",
