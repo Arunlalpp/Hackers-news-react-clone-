@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
 	return (
 		<>
-			<div className="w-full bg-white md:py-[0.5rem] p-0">
+			<div className="w-full bg-white md:pt-2">
 				<div className="lg:w-8xl m-auto bg-[rgb(255,102,0)] w-full">
 					<div className="flex flex-row items-center">
 						<div className="md:w-[25px]  md:h-[25px] w-[25px] h-[25px] ml-[2px] md:ml-0 flex flex-col ">
 							<img
-								className="border-2 ml-[3px] mt-1"
+								className="border-2 ml-0 md:ml-[3px] mt-1"
 								src="https://news.ycombinator.com/y18.gif"
 								alt="Hackers-Logo"
 							/>
@@ -58,7 +59,9 @@ export default function Navbar() {
 							</div>
 						</div>
 						<div className="md:text-[14px] text-[12px] md:mr-1 mr-3 mt-1">
-							<span>login</span>
+							<a href="/">
+								<Link to="/LoginForm">login</Link>
+							</a>
 						</div>
 					</div>
 				</div>
